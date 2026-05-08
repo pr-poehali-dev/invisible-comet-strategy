@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Возможности
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Что умеет система</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "ДТП и страхование",
+              description: "Пошаговый опрос, карта действий и готовые документы: извещение о ДТП, заявление в страховую",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "PDF с электронной подписью",
+              description: "Документы формируются мгновенно — с усиленной неквалифицированной ЭП. Скачать или отправить на печать",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Маршрутизация к адвокату",
+              description: "Сложные случаи с вредом здоровью автоматически перенаправляются к дежурному адвокату",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Контроль сроков",
+              description: "Система автоматически ставит напоминания о законных сроках: 20 дней на рассмотрение заявления страховой",
               direction: "bottom",
             },
           ].map((service, i) => (
